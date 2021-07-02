@@ -1,8 +1,1 @@
-##Code 2
-data <- read.csv("data/data1.csv")
 
-pdf("output/plot1.pdf")
-
-plot(data$variable_A, data$variable_b)
-
-dev.off()
